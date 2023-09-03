@@ -1,16 +1,16 @@
 # DJANGO REST USO DE TOKEN DEMO
 É uma demo simples para exibir o uso de um token jwt para autenticação  
 # ENDPOINTS
-http:localhost:8000/registrar/
-http:localhost:8000/logar/
-http:localhost:8000/testar/
+http:localhost:8000/registrar/  
+http:localhost:8000/logar/  
+http:localhost:8000/testar/  
 # REQUESTS
 ```
 POST http:localhost:8000/registrar/
 E envie no body um form com
 {
     "username":"INSIRA UM USERNAME PRA REGISTRAR",
-    "password":"INSIRA UMA SENHA PARA REGISTRAR"
+    "password":"INSIRA UMA SENHA PARA REGISTRAR",
     "email":"INSIRA UM EMAIL PARA REGISTRAR"
 }
 ```
